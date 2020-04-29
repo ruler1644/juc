@@ -11,6 +11,9 @@ public interface Fo {
 	default int sub2(int x, int y) {
 		return x - y;
 	}
+	default int sub3(int x, int y) {
+		return x * y;
+	}
 
 	public static int mul(int x, int y) {
 		return x * y;
